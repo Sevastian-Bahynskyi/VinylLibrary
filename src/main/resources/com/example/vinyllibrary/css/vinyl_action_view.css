@@ -1,0 +1,23 @@
+.delete{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 100px;
+}
+
+.reserve{
+    -fx-background-color: #7CB342;
+    -fx-text-fill: white;
+    -fx-background-radius: 100px;
+}
+
+.reserve:hover{
+    -fx-background-color: #1B5E20;
+}
+
+.delete:hover{
+    -fx-background-color: #ff3737;
+}
+
+.button:armed{
+    -fx-opacity: 0.5;
+}
